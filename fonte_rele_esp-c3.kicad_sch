@@ -6666,7 +6666,7 @@
 		(uuid "21e35d0a-4842-417a-bf40-7bf313256d59")
 	)
 	(junction
-		(at 53.34 163.83)
+		(at 50.8 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26857337-7cb2-4d6f-95b2-cf89fff36746")
@@ -6714,12 +6714,6 @@
 		(uuid "c4044734-1d9b-42fa-8de8-8886ea20ebd5")
 	)
 	(junction
-		(at 74.93 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c42c6203-7e6d-40f5-8288-025427b871b5")
-	)
-	(junction
 		(at 129.54 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6732,7 +6726,7 @@
 		(uuid "e8ba8151-9311-4ceb-9da1-44ccca210147")
 	)
 	(junction
-		(at 62.23 173.99)
+		(at 59.69 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3275dd6-c633-492f-9e38-c5aee0444097")
@@ -6742,6 +6736,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f79fabb1-24b7-4e45-ba5d-a906d8ce542d")
+	)
+	(junction
+		(at 74.93 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9326ec8-c05f-46a1-be16-be4aede6b8f4")
 	)
 	(junction
 		(at 149.86 116.84)
@@ -6771,7 +6771,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 167.64) (xy 74.93 175.26)
+			(xy 74.93 162.56) (xy 74.93 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6891,6 +6891,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 162.56) (xy 59.69 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5c2766-95df-4486-a885-4faddc3e6660")
+	)
+	(wire
+		(pts
 			(xy 186.69 52.07) (xy 198.12 52.07)
 		)
 		(stroke
@@ -6941,7 +6951,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 173.99) (xy 62.23 176.53)
+			(xy 59.69 180.34) (xy 59.69 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6991,7 +7001,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 163.83) (xy 43.18 163.83)
+			(xy 35.56 170.18) (xy 40.64 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7008,16 +7018,6 @@
 			(type default)
 		)
 		(uuid "3518c035-8c5f-4a79-b541-363c69f31c31")
-	)
-	(wire
-		(pts
-			(xy 62.23 158.75) (xy 62.23 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "357c9dfe-f355-4fbd-b5a2-8a428dc6ac12")
 	)
 	(wire
 		(pts
@@ -7078,6 +7078,16 @@
 			(type default)
 		)
 		(uuid "40b03f3f-e46b-4e4e-a986-b63b447d2137")
+	)
+	(wire
+		(pts
+			(xy 59.69 162.56) (xy 74.93 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d26a67-1ab7-4e4b-b198-f3f962601151")
 	)
 	(wire
 		(pts
@@ -7151,7 +7161,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 173.99) (xy 62.23 173.99)
+			(xy 50.8 180.34) (xy 59.69 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7331,7 +7341,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 163.83) (xy 53.34 163.83)
+			(xy 48.26 170.18) (xy 50.8 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7371,7 +7381,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 160.02) (xy 74.93 153.67)
+			(xy 74.93 154.94) (xy 74.93 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7391,7 +7401,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 163.83) (xy 54.61 163.83)
+			(xy 50.8 170.18) (xy 52.07 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7621,7 +7631,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 166.37) (xy 53.34 163.83)
+			(xy 50.8 172.72) (xy 50.8 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7688,16 +7698,6 @@
 			(type default)
 		)
 		(uuid "e9799a7e-f254-4c45-8d64-4318d8af0c5d")
-	)
-	(wire
-		(pts
-			(xy 62.23 153.67) (xy 74.93 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea78719d-37a8-4912-9fe5-3039d5f1874f")
 	)
 	(wire
 		(pts
@@ -7771,7 +7771,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 168.91) (xy 62.23 173.99)
+			(xy 59.69 175.26) (xy 59.69 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7820,7 +7820,7 @@
 		(uuid "1549b7e5-4ce3-4572-ae29-48fb88d90182")
 	)
 	(label "DRAIN"
-		(at 68.58 153.67 180)
+		(at 81.28 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7890,7 +7890,7 @@
 		(uuid "9aabf45b-9c59-45e7-89a1-e3826d3321aa")
 	)
 	(label "RELE"
-		(at 38.1 163.83 0)
+		(at 35.56 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7898,16 +7898,6 @@
 			(justify left bottom)
 		)
 		(uuid "a301ce82-866d-4224-b17e-320138ba6ce3")
-	)
-	(label "L_OUT"
-		(at 119.38 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b2802935-86b8-4b6e-940e-84971e16d422")
 	)
 	(label "NF"
 		(at 100.33 153.67 270)
@@ -8340,7 +8330,8 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148WT")
-		(at 74.93 163.83 270)
+		(at 74.93 158.75 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8348,10 +8339,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "12f8fa7b-9604-460b-9ef0-ce389b0e33b4")
 		(property "Reference" "D1"
-			(at 77.47 162.5599 90)
+			(at 72.39 157.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8362,7 +8352,7 @@
 			)
 		)
 		(property "Value" "1N4148WT"
-			(at 77.47 165.0999 90)
+			(at 71.374 160.782 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8373,7 +8363,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 70.485 163.83 0)
+			(at 79.375 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8384,7 +8374,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 74.93 163.83 0)
+			(at 74.93 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8395,7 +8385,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 74.93 163.83 0)
+			(at 74.93 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8406,7 +8396,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 74.93 163.83 0)
+			(at 74.93 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8417,7 +8407,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 163.83 0)
+			(at 74.93 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8522,7 +8512,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,1kΩ")
-		(at 46.99 163.83 270)
+		(at 44.45 170.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8533,7 +8523,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c02931e-2240-46ce-964f-97cde6ded41e")
 		(property "Reference" "R2"
-			(at 46.99 160.02 90)
+			(at 44.45 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8543,7 +8533,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 46.99 163.83 90)
+			(at 44.45 170.18 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8553,7 +8543,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 46.99 162.052 90)
+			(at 44.45 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8564,7 +8554,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8575,7 +8565,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 1kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8586,7 +8576,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8597,7 +8587,7 @@
 			)
 		)
 		(property "Stock" "27538425"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8608,7 +8598,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8619,7 +8609,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8630,7 +8620,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8641,7 +8631,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8652,7 +8642,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8663,7 +8653,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8674,7 +8664,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8685,7 +8675,7 @@
 			)
 		)
 		(property "Part" "0603WAF1001T5E"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8696,7 +8686,7 @@
 			)
 		)
 		(property "Resistance" "1kΩ"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8707,7 +8697,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8718,7 +8708,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8729,7 +8719,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8740,7 +8730,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8751,7 +8741,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +8752,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 46.99 163.83 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9148,7 +9138,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,10kΩ")
-		(at 53.34 170.18 180)
+		(at 50.8 176.53 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9159,7 +9149,7 @@
 		(fields_autoplaced yes)
 		(uuid "288e10fa-9faf-40d3-9eae-72bf221c4301")
 		(property "Reference" "R3"
-			(at 55.88 170.1799 0)
+			(at 53.34 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9170,7 +9160,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 53.34 170.18 90)
+			(at 50.8 176.53 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9180,7 +9170,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 55.118 170.18 90)
+			(at 52.578 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9191,7 +9181,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9202,7 +9192,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9213,7 +9203,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9224,7 +9214,7 @@
 			)
 		)
 		(property "Stock" "51181774"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9235,7 +9225,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9246,7 +9236,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9257,7 +9247,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9268,7 +9258,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9279,7 +9269,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9290,7 +9280,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9301,7 +9291,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9312,7 +9302,7 @@
 			)
 		)
 		(property "Part" "0603WAF1002T5E"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9323,7 +9313,7 @@
 			)
 		)
 		(property "Resistance" "10kΩ"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9334,7 +9324,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9345,7 +9335,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9356,7 +9346,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9367,7 +9357,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9378,7 +9368,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9389,7 +9379,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 53.34 170.18 0)
+			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9956,6 +9946,84 @@
 			(project "fonte_rele_esp-c3"
 				(path "/994e14a8-d3ff-4177-8421-d15111a8b3ec"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 119.38 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52b787f9-ea07-4da4-af2c-c48156b716fc")
+		(property "Reference" "#PWR027"
+			(at 119.38 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AC"
+			(at 119.38 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 119.38 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "155d28c8-a5b9-4b5e-a79c-3479b798fa8e")
+		)
+		(instances
+			(project "fonte_rele_esp-c3"
+				(path "/994e14a8-d3ff-4177-8421-d15111a8b3ec"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12687,7 +12755,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 59.69 163.83 0)
+		(at 57.15 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12697,7 +12765,7 @@
 		(dnp no)
 		(uuid "c1f7e57a-2993-49d3-8cb6-db8cf54dd28f")
 		(property "Reference" "Q1"
-			(at 64.262 167.132 0)
+			(at 61.722 173.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12708,7 +12776,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 62.738 169.672 0)
+			(at 60.198 176.022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12719,7 +12787,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 64.77 165.735 0)
+			(at 62.23 172.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12732,7 +12800,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 64.77 167.64 0)
+			(at 62.23 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12744,7 +12812,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 59.69 163.83 0)
+			(at 57.15 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13010,7 +13078,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 176.53 0)
+		(at 59.69 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13021,7 +13089,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf4e9fe1-d204-4f6e-a0ec-13c0700b6d63")
 		(property "Reference" "#PWR017"
-			(at 62.23 182.88 0)
+			(at 59.69 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13032,7 +13100,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 181.61 0)
+			(at 59.69 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13042,7 +13110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 176.53 0)
+			(at 59.69 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13053,7 +13121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 176.53 0)
+			(at 59.69 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13064,7 +13132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 176.53 0)
+			(at 59.69 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
