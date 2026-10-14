@@ -7071,16 +7071,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 113.03) (xy 129.54 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "407d7fa2-cf7b-43db-a4fa-1dec6d65189b")
-	)
-	(wire
-		(pts
 			(xy 92.71 41.91) (xy 100.33 41.91)
 		)
 		(stroke
@@ -7268,6 +7258,16 @@
 			(type default)
 		)
 		(uuid "74e636f2-fa8d-4059-8a7e-e501b1663ac8")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 152.4 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d3691e-8aab-4fac-a267-5e80e6287483")
 	)
 	(wire
 		(pts
@@ -7869,16 +7869,6 @@
 		)
 		(uuid "8092f028-1be3-4b19-833a-4b0d6c00ec6b")
 	)
-	(label "RELE"
-		(at 129.54 115.57 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8a96ed07-8a29-4705-888c-bf73ac4ca2d8")
-	)
 	(label "DRAIN"
 		(at 210.82 118.11 180)
 		(effects
@@ -7928,6 +7918,16 @@
 			(justify right bottom)
 		)
 		(uuid "e03e2119-30d8-4584-ab4c-541de03f8432")
+	)
+	(label "RELE"
+		(at 152.4 115.57 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e571112f-87ec-49c0-a931-39b1a3995bd3")
 	)
 	(label "BOOT"
 		(at 148.59 116.84 180)
