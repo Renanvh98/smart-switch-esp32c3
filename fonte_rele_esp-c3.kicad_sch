@@ -6781,7 +6781,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 39.37) (xy 55.88 44.45)
+			(xy 46.99 46.99) (xy 46.99 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6848,16 +6848,6 @@
 			(type default)
 		)
 		(uuid "0ac6aed7-f8be-45b4-91b6-dca1bb5f0862")
-	)
-	(wire
-		(pts
-			(xy 55.88 44.45) (xy 39.37 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0acefd3e-8068-40e4-8f9b-88f5b2930480")
 	)
 	(wire
 		(pts
@@ -7148,16 +7138,6 @@
 			(type default)
 		)
 		(uuid "57c60013-ce25-4179-9fd9-78ee9ef06ea7")
-	)
-	(wire
-		(pts
-			(xy 46.99 46.99) (xy 46.99 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59fd6d5c-70ad-4272-85bf-ca723ec62343")
 	)
 	(wire
 		(pts
@@ -7511,6 +7491,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 44.45) (xy 39.37 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ebf9c4-c371-401d-9f6b-4b8ed4a37853")
+	)
+	(wire
+		(pts
 			(xy 207.01 49.53) (xy 207.01 52.07)
 		)
 		(stroke
@@ -7548,6 +7538,16 @@
 			(type default)
 		)
 		(uuid "c42d3374-e62e-435e-bcea-5dfb64a4c3b5")
+	)
+	(wire
+		(pts
+			(xy 52.07 46.99) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e034bc-5df9-454f-ac74-830800802cab")
 	)
 	(wire
 		(pts
@@ -8437,6 +8437,84 @@
 			(project "fonte_rele_esp-c3"
 				(path "/994e14a8-d3ff-4177-8421-d15111a8b3ec"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 52.07 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "143f5fa1-e3d9-4ddf-90a3-97a3c4a3bc7e")
+		(property "Reference" "#PWR03"
+			(at 52.07 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 52.07 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 52.07 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ca02be1-2951-4417-a98e-492ace78b9a2")
+		)
+		(instances
+			(project "fonte_rele_esp-c3"
+				(path "/994e14a8-d3ff-4177-8421-d15111a8b3ec"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9559,84 +9637,6 @@
 			(project "fonte_rele_esp-c3"
 				(path "/994e14a8-d3ff-4177-8421-d15111a8b3ec"
 					(reference "FID1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 46.99 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f7d3241-9303-4916-ae52-3b6c9e865fa2")
-		(property "Reference" "#PWR03"
-			(at 46.99 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Earth"
-			(at 46.99 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 46.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c973fe9a-890e-4626-bc02-0303d85c5da2")
-		)
-		(instances
-			(project "fonte_rele_esp-c3"
-				(path "/994e14a8-d3ff-4177-8421-d15111a8b3ec"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11261,7 +11261,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 55.88 39.37 0)
+		(at 46.99 48.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11269,10 +11269,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7305ec00-f030-49fe-832a-89369fbdeff6")
 		(property "Reference" "#PWR02"
-			(at 55.88 41.91 0)
+			(at 46.99 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11283,7 +11282,7 @@
 			)
 		)
 		(property "Value" "N"
-			(at 55.88 31.75 0)
+			(at 43.688 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11293,7 +11292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 39.37 0)
+			(at 46.99 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11304,7 +11303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 39.37 0)
+			(at 46.99 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11315,7 +11314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"N\""
-			(at 55.88 39.37 0)
+			(at 46.99 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12475,7 +12474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 48.26 92.71 0)
 			(hide yes)
 			(show_name no)
