@@ -20,6 +20,9 @@ Compact smart wall switch PCB designed around the ESP32-C3 microcontroller for I
 * Interface: 4-pin UART programming header.
 * Safety: Fused AC input with strict AC/DC creepage separation.
 
+### Wiring Note
+J3 (COM / NF / NA) is intentionally left unconnected to J1 on the PCB. Since only a single phase wire usually reaches the wall switch box, bridge it externally with a jumper wire from J1's phase (AC) terminal to J3's COM pin — this feeds the relay's switched contact from the same phase that powers the board.
+
 ---
 
 <a name="português"></a>
@@ -37,6 +40,9 @@ Placa de circuito impresso para interruptor inteligente de parede baseada no mic
 * Sinalização: LEDs de status para as barras de 12V, 3,3V e estado do relé.
 * Programação: Conector UART de 4 pinos.
 * Segurança: Proteção de entrada AC por fusível e isolamento físico AC/DC.
+
+### Nota de Instalação
+O J3 (COM / NF / NA) é propositalmente deixado sem ligação ao J1 na placa. Como normalmente só chega uma única fase na caixa do interruptor, feche essa ligação com um jumper externo saindo do terminal de fase (AC) do J1 até o pino COM do J3 — assim o contato comutado do relé recebe a mesma fase que alimenta a placa.
 
 ---
 

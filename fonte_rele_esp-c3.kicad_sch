@@ -9630,7 +9630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed"
+		(property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_157x"
 			(at 44.45 41.91 0)
 			(hide yes)
 			(show_name no)
